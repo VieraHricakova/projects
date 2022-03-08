@@ -1,0 +1,51 @@
+* {
+}
+body {
+  background-color: rgb(81, 94, 94);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main {
+  width: 50%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul li:nth-child(2) {
+  color: ivory;
+}
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: lavender;
+  }
+}
+@media all and (max-width: 640px) {
+  body {
+    background-color: rgb(47, 47, 117);
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+#tabulka {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#tabulka {
+  box-shadow: 0 1px 3px gainsboro;
+}
+
+label,
+input,
+button {
+  margin: 10px;
+}
